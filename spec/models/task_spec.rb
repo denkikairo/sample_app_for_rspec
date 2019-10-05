@@ -1,5 +1,9 @@
 require 'rails_helper'
+require 'task'
 
 RSpec.describe Task, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "is named 'Pochi'" do
+    task = Task.new
+    expect(task.title).to eq 'Pochi'
+  end
 end
