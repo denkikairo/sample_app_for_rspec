@@ -1,0 +1,15 @@
+current directory: /Users/ikeda/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/ikeda/.rbenv/versions/2.6.4/bin/ruby -I /Users/ikeda/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20191004-49815-1un0thz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ikeda/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/ikeda/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/ikeda/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20191004-49815-7opjr8/skiptrace/internal
